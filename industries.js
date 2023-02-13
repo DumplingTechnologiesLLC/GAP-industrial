@@ -1,5 +1,9 @@
 module.exports = [
   {
+    text: 'Industrial Services',
+    img: '/images/industries/industrialServices-min.webp'
+  },
+  {
     text: 'Manufacturing',
     img: '/images/industries/manufacturing-min.webp'
   },
@@ -38,10 +42,6 @@ module.exports = [
   {
     text: 'Telecom',
     img: '/images/industries/telecom-min.webp'
-  },
-  {
-    text: 'Industrial Services',
-    img: '/images/industries/industrialServices-min.webp'
   },
   {
     text: 'Pneumatic Conveying',

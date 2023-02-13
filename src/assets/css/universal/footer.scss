@@ -9,10 +9,7 @@
   flex-direction: column;
   min-height:300px;
   padding: 1.5em 3em;
-  a {
-    @include white-link;
-    position: relative;
-  }
+  
   .ghostImage {
     position: absolute;
     left: -10px;
@@ -27,6 +24,12 @@
     padding: 0 1em 1em 1em;
     width: 100%;
     flex-wrap: wrap;
+    &__siteNavigation {
+      a {
+        @include white-link;
+        position: relative;
+      }
+    }
     &__linkColumn {
       display: flex;
       min-width: 300px;
@@ -44,6 +47,7 @@
           flex-shrink: 1;
           width: 20px;
           max-height: 25px;
+          margin-top: .25em;
           margin-right: .5em;
         }
       }

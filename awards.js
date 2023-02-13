@@ -41,12 +41,24 @@ module.exports = [
     img: '/images/awards/2022BBB.webp',
     link: 'https://www.gap-advisors.com/news/gilbert-pardue-runner-up-in-2022-bbb-torch-award-for-ethics',
   },
-  // add new awards below this line
   {
     year: '2022',
     text: "Inc. 5000's fastest growing companies",
     img: '/images/awards/inc500FastestGrowing.webp',
     link: 'https://www.gap-advisors.com/news/gilbert-pardue-transaction-advisors-amongst-inc-5000s-fastest-growing-companies-for-2022',
+  },
+  // add new awards below this line
+  {
+    year: '2022',
+    text: "GaP 2022 Best Business Transaction Advisory Firm in Texas",
+    img: '/images/awards/2022/bestBusinessTransaction.webp',
+    link: 'https://www.gap-advisors.com/news/acquisition-international-ai-has-recognized-gap-as-winner-of-the-m-a-awards-2022-best-business-transaction-advisory-firm-in-texas',
+  },
+  {
+    year: '2023',
+    text: "GaP 30 Top Innovative Brands of 2023",
+    img: '/images/awards/2023/topInnovativebrands.webp',
+    link: 'https://www.gap-advisors.com/news/gilbert-and-pardue-transaction-advisors-an-award-winning-lower-middle-market-m-a-advisory-firm',
   },
   // add new awards above this line
 ]

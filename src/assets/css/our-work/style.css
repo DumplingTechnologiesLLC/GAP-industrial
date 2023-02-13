@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .red-text {
@@ -31,45 +31,27 @@ li p {
   max-width: 1280px;
   margin: 0 auto;
 }
-
 .aboveTheFold h1 {
   font-size: 3em;
 }
-
 .aboveTheFold .red-text {
   white-space: initial !important;
 }
-
 .aboveTheFold__industries {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .aboveTheFold__industries__industry {
   max-width: 150px;
-  -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
-  -webkit-animation: SlideDown .3s forwards;
-          animation: SlideDown .3s forwards;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  transform: translateY(-20px);
+  -webkit-animation: SlideDown 0.3s forwards;
+          animation: SlideDown 0.3s forwards;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-
 .aboveTheFold__industries__industry img {
   height: 150px;
   width: 150px;
@@ -84,65 +66,43 @@ li p {
   max-width: 1280px;
   margin: 0 auto;
 }
-
 .workSampling h1 {
   font-size: 3em;
 }
-
 .workSampling .red-text {
   white-space: initial !important;
 }
-
 .workSampling__works {
   margin-top: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .workSampling__works__work {
   text-decoration: none;
-  -webkit-transition: background-color .3s ease-out;
-  transition: background-color .3s ease-out;
+  transition: background-color 0.3s ease-out;
   background-color: white;
-  margin: .5em;
+  margin: 0.5em;
   border: 1px solid #0B4A9F;
-  -webkit-box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
-          box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
+  box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
   border-radius: 3px;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: black;
 }
-
 .workSampling__works__work:hover {
   background-color: #fafafa;
 }
-
 .workSampling__works__work figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   max-width: 300px;
 }
-
 .workSampling__works__work figure figcaption {
   max-width: 250px;
 }
-
 .workSampling__works__work figure img {
   height: 150px;
   width: 150px;
@@ -156,66 +116,44 @@ li p {
   max-width: 1280px;
   margin: 0 auto;
 }
-
 .whatOthersAreSaying h1 {
   font-size: 3em;
 }
-
 .whatOthersAreSaying .red-text {
   white-space: initial !important;
 }
-
 .whatOthersAreSaying__awards {
   background-image: url(/images/footer/GhostLogo.svg);
   margin-top: 1em;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .whatOthersAreSaying__awards__award {
   text-decoration: none;
-  -webkit-transition: background-color .3s ease-out;
-  transition: background-color .3s ease-out;
+  transition: background-color 0.3s ease-out;
   background-color: white;
-  margin: .5em;
+  margin: 0.5em;
   border: 1px solid #0B4A9F;
-  -webkit-box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
-          box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
+  box-shadow: 0px 4px 4px 2px rgba(8, 1, 128, 0.2);
   border-radius: 3px;
   font-weight: bold;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: black;
 }
-
 .whatOthersAreSaying__awards__award:hover {
   background-color: #fafafa;
 }
-
 .whatOthersAreSaying__awards__award figure {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   max-width: 300px;
 }
-
 .whatOthersAreSaying__awards__award figure figcaption {
   max-width: 250px;
 }
-
 .whatOthersAreSaying__awards__award figure img {
   height: 150px;
   width: 150px;
@@ -225,32 +163,26 @@ li p {
 
 @-webkit-keyframes SlideDown {
   from {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    transform: translateY(-20px);
   }
   to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
 @keyframes SlideDown {
   from {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
+    transform: translateY(-20px);
   }
   to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
-
 .animatedImage {
   position: relative;
   height: 150px;
   width: 150px;
 }
-
 .animatedImage img {
   position: absolute;
   top: 0;
@@ -258,23 +190,19 @@ li p {
   left: 0;
   right: 0;
 }
-
 .animatedImage img:nth-of-type(1) {
-  -webkit-transform: scale(0.98);
-          transform: scale(0.98);
+  transform: scale(0.98);
 }
-
 .animatedImage img:nth-of-type(2) {
   opacity: 0;
   -webkit-animation-duration: 8s;
           animation-duration: 8s;
   z-index: 1;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
 }
-
 .animatedImage--animated img:nth-of-type(2) {
   -webkit-animation-name: FadeInOut;
           animation-name: FadeInOut;
@@ -314,5 +242,4 @@ li p {
   100% {
     opacity: 0%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

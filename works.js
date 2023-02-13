@@ -182,6 +182,18 @@ module.exports = [
     link: 'https://www.gap-advisors.com/news/pro-mechanical-usa-llc-has-been-purchased-by-arcapita-investment-management-us-inc'
   },
   // add new works below this line
-
+  {
+    year: '2022',
+    text: "Texas Precision MetalCraft acquired by TPM Acquistion Holdings",
+    seller: {
+      img: '/images/our-work/2022/precisionMetalcraft/tpm.webp',
+      companyName: "Texas Precision MetalCraft, Inc.",
+    },
+    buyer: {
+      img: '/images/our-work/2022/precisionMetalcraft/tpm.webp',
+      companyName: "TPM Acquisition Holdings, LLC",
+    },
+    link: 'https://www.gap-advisors.com/news/texas-precision-metalcraft-inc-of-sugarland-texas-has-been-purchased-by-tpm-acquisition-holdings-llc-of-houston-texas',
+  },
   // add new works above this line
 ]
